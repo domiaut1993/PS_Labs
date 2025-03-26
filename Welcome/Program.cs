@@ -13,7 +13,7 @@ namespace Welcome
             user.Names = "Vasil";
             user.Password = "123";
             user.Role = UserRolesEnum.ADMIN;
-            user.FacultyNumber = 121221096;
+            user.FacultyNumber = 121221000;
             user.Email = "domiaut1999@gmail.com";
             UserViewModel userViewModel = new UserViewModel(user);
             UserView userView = new UserView(userViewModel);
